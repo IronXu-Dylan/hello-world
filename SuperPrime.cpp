@@ -19,7 +19,7 @@ public:
   Prime sqaureSumBit();
 private:
   const int num;
-}
+};
 int main()
 {
     SuperPrime sp(113);
