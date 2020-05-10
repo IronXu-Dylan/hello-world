@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 #include <assert.h>
-main() {
+int main() {
 	double a,b,c,d,e,f;
 	double t1,t2;
 	scanf("%lf %lf %lf %lf %lf %lf",&a,&b,&c,&d,&e,&f);
-	assert(fabs(b*d-a*e<1.0e-8));    //1.0e-8±íÊ¾10^£¨-8£©
+	assert(fabs(b*d-a*e<1.0e-8));    //1.0e-8ï¿½ï¿½Ê¾10^ï¿½ï¿½-8ï¿½ï¿½
 	if(b*d-a*e!=0){
 	t1=(b*f-c*e)/(b*d-a*e);
 	printf("x=%lf\n",t1);
