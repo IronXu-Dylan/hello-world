@@ -1,5 +1,8 @@
+#include<iostream>
+using namespace std;
 class Table {
 public:
+  Table();
 
   void show();
   int addRow();
@@ -17,7 +20,7 @@ public:
   void show();
 private:
   string content;
-}
+};
 int main() {
   Table tb;
   tb.show();
